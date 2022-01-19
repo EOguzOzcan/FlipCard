@@ -1,11 +1,10 @@
 <script>
   import FlipCard from "./components/FlipCard.svelte";
   import { Col, Container, Row } from "sveltestrap";
-  import Fa from "svelte-fa/src/fa.svelte";
-  import { faFlag, faPencilAlt, faCog, faInfo } from "@fortawesome/free-solid-svg-icons";
   import * as dataText from "./data/data.json";
-  let textBundle = dataText.default
-  console.log("textBundle",JSON.stringify(textBundle));
+  let textBundle = dataText.default;
+
+
 </script>
 
 <svelte:head>
@@ -19,10 +18,11 @@
   <Row>
     {#each textBundle as sideCard}
       <Col>
+      
         <FlipCard
           sideCardText={sideCard.sideCardText}
           backCardText={sideCard.backCardText}
-          sideCardIcon={faFlag}
+          src={sideCard.Logo}
         />
       </Col>
     {/each}

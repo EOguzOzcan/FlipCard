@@ -1,34 +1,23 @@
 [
   {
     "sideCardText": "Event-Centric Massive Scale Data Platform",
-    "backCardText": "A next generation data platform, which forms the infrastructurefor Complex Event Processingand NextGen BaaS Platforms together with AI Services built or performance, scalability and flexibility"
+    "backCardText": "A next generation data platform, which forms the infrastructurefor Complex Event Processingand NextGen BaaS Platforms together with AI Services built or performance, scalability and flexibility",
+    "Logo": "https://www.svgrepo.com/show/17470/flag.svg"
+
   },
   {
-    "sideCardText": "Event-Centric Massive Scale Data Platform",
-    "backCardText": "A next generation data platform, which forms the infrastructurefor Complex Event Processingand NextGen BaaS Platforms together with AI Services built or performance, scalability and flexibility"
+    "sideCardText": "Digital Experience Platform",
+    "backCardText": "AI supported Digital Experience & Commerce Platform to create and deliver personalized, content rich, contextualized digital experiences, complemented by real time analytics and customer data management",
+    "Logo": "https://www.svgrepo.com/show/43194/cogwheel.svg"
   },
   {
-    "sideCardText": "Event-Centric Massive Scale Data Platform",
-    "backCardText": "A next generation data platform, which forms the infrastructurefor Complex Event Processingand NextGen BaaS Platforms together with AI Services built or performance, scalability and flexibility"
+    "sideCardText": "Complex Event Processing Platform",
+    "backCardText": "An innovative AI supported Complex Event Processing (CEP) Platform to gain real-time insights from business moments and react on them accordingly and timeously",
+    "Logo": "https://www.svgrepo.com/show/246320/information.svg"
   },
   {
-    "sideCardText": "Event-Centric Massive Scale Data Platform",
-    "backCardText": "A next generation data platform, which forms the infrastructurefor Complex Event Processingand NextGen BaaS Platforms together with AI Services built or performance, scalability and flexibility"
-  },
-  {
-    "sideCardText": "Event-Centric Massive Scale Data Platform",
-    "backCardText": "A next generation data platform, which forms the infrastructurefor Complex Event Processingand NextGen BaaS Platforms together with AI Services built or performance, scalability and flexibility"
-  },
-  {
-    "sideCardText": "Event-Centric Massive Scale Data Platform",
-    "backCardText": "A next generation data platform, which forms the infrastructurefor Complex Event Processingand NextGen BaaS Platforms together with AI Services built or performance, scalability and flexibility"
-  },
-  {
-    "sideCardText": "Event-Centric Massive Scale Data Platform",
-    "backCardText": "A next generation data platform, which forms the infrastructurefor Complex Event Processingand NextGen BaaS Platforms together with AI Services built or performance, scalability and flexibility"
-  },
-  {
-    "sideCardText": "Event-Centric Massive Scale Data Platform",
-    "backCardText": "A next generation data platform, which forms the infrastructurefor Complex Event Processingand NextGen BaaS Platforms together with AI Services built or performance, scalability and flexibility"
+    "sideCardText": "AI Services Platform",
+    "backCardText": "Enabling organisations to deploy and serve AI models in massive scale streaming data production environments",
+    "Logo": "https://www.svgrepo.com/show/235199/chip-ai.svg"
   }
 ]

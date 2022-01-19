@@ -1,11 +1,9 @@
 <script>
-	import Fa from 'svelte-fa/src/fa.svelte'
-	import { faFlag } from '@fortawesome/free-solid-svg-icons'
 	export let sideCardText;
 	export let backCardText;
-	export let sideCardIcon;
+	export let src;
 
-	let flipped = false
+	let flipped = true
 	
 	function flip(node, {
 		delay = 0,
@@ -77,7 +75,6 @@
 	.back {
 		display: flex;
 		position: absolute;
-		position: relative;
 		height: 100%;
 		width: 100%;
 		background-color: rgb(255, 0, 0);
@@ -101,8 +98,10 @@
  		opacity: 1 !important;
 		
 	}
-	.icon {
-		margin-top: 75px;
+	.logo {
+		width: 10%;
+		margin-top: 85px;
+		
 		
 	}
 </style>
@@ -111,7 +110,7 @@
 	<div class="card">
 		{#if flipped}
 		<div class="side" transition:flip>
-			<h1 class="icon"><Fa icon={sideCardIcon} size="xs"/></h1>
+			<img class="logo" {src} alt="Logo">
 
 				<p class="side-text">{sideCardText}</p>
 		</div>
